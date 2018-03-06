@@ -1,0 +1,12 @@
+把文件 /data/config.php 的 数据库 账号 密码 都 改成自己的就可以了,如下!
+
+
+$config['db']['master']['username'] = 'username';	//数据库用户名
+$config['db']['master']['password'] = 'password';	//数据库密码
+$config['db']['master']['port'] = '3306';
+$config['db']['master']['database'] = 'database';	//数据库名称
+
+
+
+后台帐号:admin
+密码:admin
